@@ -19,7 +19,7 @@ namespace address_book
             {
                 contactList.Add(givenContact.Email, givenContact);
             }
-            catch (ArgumentException ex)
+            catch (ArgumentException)
             {
                 Console.WriteLine("You cannot add duplicate contacts.");
             }
